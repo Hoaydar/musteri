@@ -9,9 +9,9 @@ import json
 import tempfile
 import os
 
-api_id = '25380560'
-api_hash = '6e554fabcb17b2072f2b1242dfb7bdc6'
-phone_number = '+905432240619'
+api_id = '27657239'
+api_hash = '479cd01656beb142cb5980606ff12617'
+phone_number = '+84828246509'
 client = TelegramClient('session_name', api_id, api_hash)
 
 target_groups = {
@@ -32,7 +32,7 @@ target_groups = {
     "firsatcik",
     "albitir"
 }
-destination_group = 'denemeliksahmara' #Mesajların atılacağı grubun adını yazmanız gerekiyor
+destination_group = 'indirimalarmi1' #Mesajların atılacağı grubun adını yazmanız gerekiyor
 
 
 sent_message_hashes = set()
