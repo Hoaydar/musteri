@@ -1,0 +1,9 @@
+Cuzdan.py dosyası çalıştırılarak cüzdanlar oluşturulur.
+
+filter_cuzdan_name.py dosyası çalıştırılarak oluşturulan cüzdan dosyası farklı bir dosya da sadece cuzdan name olacak formatta kayıt edilir
+
+airdrop.py bu dosyaya cuzdan.py dosyasının oluşturduğu formatta cüzdanlar bağlanır ve dosya çalıştırılır
+
+distribute_eth.py bu dosyaya filter_cuzdan_name.py dosyasının çıktısı bağlanır ve cüzdanlara gas fee ücreti için eth dağıtılır
+
+transfer.py çalıştırılır ve cüzdanlar kendi içinde transfer işlemine başlar
